@@ -3,6 +3,8 @@ header {background-color:forestgreen; color:white; text-align: center;}
 
 h1 {color: white; font-family: Verdana; font-size: 64px; text-align: center;}
 
+p {text-align:center; color: white; font-family: Verdana;}
+
 button {font-size: 64px; color: blue;}
 
 section.jumbotron {text-align: center; 
@@ -10,4 +12,3 @@ section.jumbotron {text-align: center;
             outline-color:forestgreen;}
 h2 {color: red; font-family: Verdana; font-size: 32px;}
 
-p {text-align:center; color: white; font-family: Verdana;}
