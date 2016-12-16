@@ -5,6 +5,7 @@ h1 {color: white; font-family: Verdana; font-size: 64px; text-align: center;}
 
 button {font-size: 32px;}
 
-#jumbotron {text-align: center; 
+section.jumbotron {text-align: center; 
             border: 1px solid black;
             outline-color:forestgreen;}
+h2 {color: red; font-family: Verdana; font-size: 32px;}
