@@ -5,4 +5,6 @@ h1 {color: black; font-family: Verdana; font-size: 64px; text-align: center;}
 
 button{background color: blue;}
 
-#jumbotron {text-align: center; border-style: double;}
+#jumbotron {text-align: center; 
+            border: 1px solid black;
+            outline-color:forestgreen;}
