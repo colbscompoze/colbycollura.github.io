@@ -1,1 +1,40 @@
-
+<!doctype html>
+<html lang="en-US">
+<head>
+<title>Conversar</title>
+  <link rel="stylesheet" href="style.css"/>
+  </head>
+<header class="row" style="background-color:forestgreen; text-align: center;">
+      <H1>
+        <button><a href="https://colbycollura.github.io/cultura.html">Cultura Local</a></button>
+        <button><a href="https://colbycollura.github.io/escribir.html">Escribir</a></button>
+        <button><a href="https://colbycollura.github.io/gramatica.html">Gramática</a></button>
+        <button><a href="https://colbycollura.github.io/spanish.html">Español --> Back Home</a></button>
+      </H1>
+    </header>
+<body>
+<section class="jumbotron" style="background-color:forestgreen;">
+  <H1>¡Verbos en español!</H1>  
+   <p> Tenemos muchos verbos en español para estudiar.  La música te ayuda con recordar los verbos.</p>
+<div class="img" style="margin-top: 30px; margin-left: 10px; margin-right: 10px; float:left;">
+  <a target="_blank" href="http://dtsdapache.hershey.k12.pa.us/c3e3/snesbitt/files/2011/01/ar_er_ir_notes.png">
+    <img src="verbs-fridge-magnets.jpg" width="180" height="120"></a>
+  <div class="desc" style="color:white">AR/ER/IR Endings</div>
+  </div>
+  
+<div class="img" style="margin-top: 30px; margin-right: 10px; float: left">
+  <a target="_blank" href="https://www.youtube.com/watch?v=KATBgZ5oyIg">
+    <img src="musica-009.jpg" width="180" height="120"></a>
+  <div class="desc" style="color:white">Reflexive Your Verby</div>
+  </div>
+  
+<div class="img" style="margin-top: 30px; margin-right: 10px; float: left">
+  <a target="_blank" href="https://www.youtube.com/watch?v=w6TjefGxfPY">
+    <img src="imgres.jpg" width="180" height="120"></a>
+  <div class="desc" style="color:white">"Ser" Song</div>
+  </div>
+     <div class="container;">
+     <img src="conversation.jpg" width="300"length="300" style="margin-bottom: 50px;"/>
+    </div>
+</section>
+</html>
