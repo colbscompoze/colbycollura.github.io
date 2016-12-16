@@ -3,7 +3,7 @@ header {background-color:forestgreen; color:white; text-align: center;}
 
 h1 {color: white; font-family: Verdana; font-size: 64px; text-align: center;}
 
-button {font-size: 32px;}
+button {font-size: 64px; color: blue;}
 
 section.jumbotron {text-align: center; 
             border: 1px solid black;
