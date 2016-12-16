@@ -1,8 +1,5 @@
-head {background-color: forestgreen; color: white;
-}
-body {background-color: blue; color: black;
-}
-.nav {color: white;
-}
-.jumbotron {color: orange;
-}
+head {background-color: forestgreen; color: white;}
+
+.nav {color: white;}
+
+.jumbotron {color: orange;}
