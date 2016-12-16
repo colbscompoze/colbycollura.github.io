@@ -1,7 +1,7 @@
-.header {text-align: center; background-color: forestgreen}
+header {text-align: center; background-color: forestgreen}
 
 h1 {text-align: center; color: white;}
 
 .nav {color: white;}
 
-.jumbotron {background-color: orange;}
+jumbotron {background-color: orange;}
