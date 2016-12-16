@@ -1,5 +1,6 @@
-.header {background-color: forestgreen;}
 
-h1 {text-align: center; color: white;}
+h1 {text-align: center; background-color: forestgreen; color: white; font-family: Arial;}
+
+button {color: blue;}
 
 jumbotron {background-color: orange;}
