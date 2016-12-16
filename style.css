@@ -1,9 +1,9 @@
 
 header {background-color:forestgreen; color:white; text-align: center;}
 
-h1 {color: black; font-family: Verdana; font-size: 64px; text-align: center;}
+h1 {color: white; font-family: Verdana; font-size: 64px; text-align: center;}
 
-button{background color: blue;}
+button {font-size: 32px;}
 
 #jumbotron {text-align: center; 
             border: 1px solid black;
