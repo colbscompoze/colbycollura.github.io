@@ -1,6 +1,6 @@
-div.container{ float: right;
-}
 div.tiles{float: left;
+}
+div.container{float: right;
 }
 body {background-color:rgba(0,0,255,0.3); text-align: center;
 }
