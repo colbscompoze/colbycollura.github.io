@@ -1,8 +1,8 @@
-nav {float: left;
+nav {float: left; text-align: center;
 }
-section {float: right;
+section {float: right; text-align: center;
 }
-body {background-color:rgba(0,0,255,0.3); text-align: center;
+body {background-color:rgba(0,0,255,0.3); 
 }
 h1 {color: white; text-align: center; font-size: 40px;
 }
