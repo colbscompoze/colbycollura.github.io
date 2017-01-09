@@ -1,6 +1,8 @@
-nav {float: left; text-align: left;
+nav {
+  float:left; text-align:left;
 }
-section {float: right; text-align: right;
+section {
+  float:right; text-align:right;
 }
 body {background-color:rgba(0,0,255,0.3); 
 }
