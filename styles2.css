@@ -17,6 +17,6 @@ p {color: white; text-align: center;
   left: 20 px;
   background-color: purple;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
