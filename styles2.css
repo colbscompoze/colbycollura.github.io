@@ -6,6 +6,7 @@
   left: 20 px;
   background-color: purple;
   display: flex;
+  flex-direction: column;
 }
 #frontpage {
   width: 800 px;
