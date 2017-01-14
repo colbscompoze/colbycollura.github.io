@@ -19,8 +19,4 @@ p {color: white; text-align: center;
   display: flex;
   flex-direction: column;
 }
-#frontpage {
-  width: 800 px;
-  height: 800 px;
-  background-color: blue;
-}
+
