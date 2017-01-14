@@ -1,5 +1,5 @@
-section {
-  float:left; text-align:left;
+section.container {
+  display: flex;
 }
 aside {
   float:right; text-align:right;
