@@ -10,12 +10,12 @@ h2 {color: white; text-align: center; font-size: 24px;
 p {color: white; text-align: center;
 }
 #navphotos {
-  width: 240 px;
+  width: 400 px;
   height: 800 px;
   position: absolute;
   top: 20 px;
   left: 20 px;
-  background-color: purple;
+  background-color: white;
   display: flex;
   flex-direction: column-reverse;
 }
