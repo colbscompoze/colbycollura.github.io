@@ -16,7 +16,5 @@ p {color: white; text-align: center;
   top: 20 px;
   left: 20 px;
   background-color: white;
-  display: flex;
-  flex-direction: column-reverse;
 }
 
