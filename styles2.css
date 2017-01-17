@@ -10,11 +10,16 @@ h2 {color: white; text-align: center; font-size: 24px;
 p {color: white; text-align: center;
 }
 #navbar {
+  position: absolute;
+  top: 400 px;
+  left: 100 px;
   width: 1000 px;
   height: 1000 px;
   position: absolute;
   top: 20 px;
   left: 20 px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
