@@ -15,11 +15,11 @@ p {color: white; text-align: center;
   left: 100 px;
   width: 1000 px;
   height: 1000 px;
-  position: absolute;
+  padding: color: white; 
   top: 20 px;
   left: 20 px;
   background-color: white;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
