@@ -10,7 +10,7 @@ h2 {
   color: white; text-align: center; font-size: 24px;
   font-family: 'Architects Daughter', cursive;
 }
-div {
+#box1 {
   position: absolute;
   top: 400 px;
   left: 100 px;
@@ -19,7 +19,7 @@ div {
   padding: color: white; 
   border: 5px white;
 }
-img1, img2, img3, img4 {
+#img1, #img2, #img3, #img4 {
   height: 160 px;
   width: 240 px;
 }
