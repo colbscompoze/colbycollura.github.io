@@ -19,8 +19,8 @@ div {
   padding: color: white; 
   border: 5px white;
 }
-#img1, #img2, #img3, #img4 {
+img1, img2, img3, img4 {
   height: 160 px;
   width: 240 px;
 }
-    
+
