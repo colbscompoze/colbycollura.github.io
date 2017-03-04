@@ -20,8 +20,6 @@ p {color: white; text-align: center;
   padding: color: white; 
   top: 20 px;
   left: 20 px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
+  border: 5px white;
 }
 
