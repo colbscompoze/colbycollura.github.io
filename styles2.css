@@ -10,7 +10,7 @@ h2 {
   color: white; text-align: center; font-size: 24px;
   font-family: 'Architects Daughter', cursive;
 }
-#navbar {
+div#navbar {
   position: absolute;
   top: 400 px;
   left: 100 px;
