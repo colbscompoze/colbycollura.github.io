@@ -41,7 +41,8 @@
     </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-	$("#toggle").click(function(){
+	
+	$("#button1").click(function(){
 		$("#imageA").toggle("slow", function(){
 		});
 	});
@@ -50,7 +51,7 @@
 <body>
 <H1>Up North Radio</H1>
 <H2><em>Go outside, Go wild</em></H2>
-<input type="button" id="toggle" value="Toggle" onclick="swapAandD()" />
+<input type="button" id="button1" value="Toggle" />
 <input type="button" id="button2" value="random swap" onclick="randomSwap()" />
 <input type="button" id="button3" value="shrink d" onclick="shrinkD()" />
 <input type="button" id="button4" value="grow d" onclick="growD()" />
