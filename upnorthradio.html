@@ -17,6 +17,9 @@
         color: white; 
         font-size: 24px;
         font-family: 'Architects Daughter', cursive; }
+    header {
+	 color: green;
+	    opacity: 0.5;}
     #imageA {
 	top:		0 px;
 	left:		150 px; 
@@ -69,13 +72,15 @@ $(document).ready(function(){
 });
 </script>
 </head>
-<body>
+<header>
 <H1>Up North Radio</H1>
 <H2><em>Go outside, Go wild</em></H2>
 <input type="button" id="button1" value="Toggle Photo A" />
 <input type="button" id="button2" value="Grow Photo B" />
 <input type="button" id="button3" value="Shrink Photo B" />
 <input type="button" id="button4" value="grow d" />
+</header>
+<body>
 <div id="photosRow1" style="color:red; opacity:0.5;">
 	<img id="imageA" src="mountains1.jpg" alt="one" style="height: 200px; width:300px"/>
 	<h2>image A</h2>
@@ -86,6 +91,5 @@ $(document).ready(function(){
 	<h2>image C</h2>
 	<img id="imageD" src="lutsen1.JPG" alt="four" style="height: 200px; width:300px"/>
 	<h2>image D</h2></div>
-	
 </body>
 </html>
