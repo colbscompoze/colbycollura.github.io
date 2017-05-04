@@ -48,15 +48,21 @@
 $(document).ready(function(){
 	$("#button1").click(function(){
 		$("#imageA").toggle("slow");
-		$("#imageA").animate({left: '250px'});
 	});
 	$("#button2").click(function(){
         	$("#imageB").animate({
             	left: '250px',
             	height: '+=50px',
             	width: '+=50px'
-        });
-    });
+        	});
+	});
+	$("#button2").click(function(){
+        	$("#imageB").animate({
+            	left: '250px',
+            	height: '-=50px',
+            	width: '-=50px'
+        	});
+    	});
 });
 </script>
 </head>
@@ -65,7 +71,7 @@ $(document).ready(function(){
 <H2><em>Go outside, Go wild</em></H2>
 <input type="button" id="button1" value="Toggle Photo A" />
 <input type="button" id="button2" value="Grow Photo B" />
-<input type="button" id="button3" value="shrink d" />
+<input type="button" id="button3" value="Shrink Photo B" />
 <input type="button" id="button4" value="grow d" />
 <div id="photosRow1">
 	<img id="imageA" src="mountains1.jpg" alt="one" style="height: 200px; width:300px"/>
