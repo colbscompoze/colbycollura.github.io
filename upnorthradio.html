@@ -18,33 +18,23 @@
         font-size: 24px;
         font-family: 'Architects Daughter', cursive; }
     #imageA {
-	top:		0 px;
-	left:		150 px; 
-	height:		400 px;
-	width:		400 px;}
+	height:		200 px;
+	width:		300 px;}
     #imageB {
-	top:		0 px;
-	left:		450 px; 
-	height:		400 px;
-	width:		400 px}
+	height:		200 px;
+	width:		300 px}
     #imageC {
-	top:		350 px;
-	left:		150 px; 
-	height:		400 px;
-	width:		400 px;}
+	height:		200 px;
+	width:		300 px;}
     #imageD {	
-	top:		350 px;
-	left:		450 px; 
-	height:		400 px;
-	width:		400 px}
-    #photoRow1 {
-	height:		500 px;
-	width:		1000 px
-	z-index:	0;}
-    #photoRow2 {
-	height:		500 px;
-	width:		1000 px
-	z-index:	0;}
+	height:		200 px;
+	width:		300 px}
+    #pond {
+	display:	flex;
+	justify-content: space-around;
+	height:		1500 px;
+	width:		1500 px }
+    
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
@@ -76,15 +66,11 @@ $(document).ready(function(){
 <input type="button" id="button3" value="Shrink Photo B" />
 <input type="button" id="button4" value="grow d" />
 <body>
-<div id="photosRow1" style="color:red; opacity:0.5;">
+<div id="pond">
 	<img id="imageA" src="mountains1.jpg" alt="one" style="height: 200px; width:300px"/>
-	<h2>image A</h2>
 	<img id="imageB" src="camping1.JPG" alt="two" style="height: 200px; width:300px" />
-	<h2>image B</h2></div>
-<div id="photosRow2">	
 	<img id="imageC" src="fishing1.JPG" alt="three" style="height: 200px; width:300px" />
-	<h2>image C</h2>
 	<img id="imageD" src="lutsen1.JPG" alt="four" style="height: 200px; width:300px"/>
-	<h2>image D</h2></div>
+</div>
 </body>
 </html>
