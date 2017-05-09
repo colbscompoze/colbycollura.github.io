@@ -32,17 +32,9 @@
     #imageE {
 	height:		240 px;
 	width:		360 px;}
-    #pond {
+    #pond, #pond2 {
 	width:		750 px;
 	height:		1500 px; 
-	display:	flex;
-	flex-direction:	row;
-	justify-content: space-around;
-	align-items:	center;
-	border-style:	double;}
-    #pond2 {
-    	width:		750 px;
-	height:		1500 px;
 	display:	flex;
 	flex-direction:	row;
 	justify-content: space-around;
@@ -57,16 +49,12 @@
     	width: 750px;
     	height: 500px;
 	overflow: auto; }
-    #square1 {
+    #square1, #square2, #square3, #square4 {
 	width:	20px;
 	height:	200px;
 	display:  visible;
-	background-color: red; }
-    #square2 {
-	width:	20px;
-	height:	200px;
-	display:  visible;
-	background-color: green; }
+	background-color: silver;
+	opacity: 0.5; }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
@@ -116,8 +104,9 @@ $( "#pond3" ).scrollTop( 300 );
 	</div>
 <div id="pond2">
 	<img id="imageD" src="Breck2.jpg" alt="four" style="height: 200px; width:300px"/>
-	<div id="div3" style="width:50px;height:50px;display:none;background-color:blue;"></div>
+	<div id="square3"></div>
 	<img id="imageE" src="Distance.jpg" alt="five" style="height: 200px; width:300px"/>
+	<div id="square4"></div>
 	<img id="imageF" src="Colorado1.JPG" alt="five" style="height: 200px; width:300px"/>
 </div>
 	<div id="pond3"><H1>Welcome to JS World</H1>
