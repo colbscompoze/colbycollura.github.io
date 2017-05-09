@@ -66,8 +66,15 @@ $(document).ready(function(){
             	width: '-=50px'
         	});
     	});
-	$("#menu").jSlickmenu();
 });
+</script>
+<script src="js/cbpFWTabs.js"></script>
+<script>
+	(function() {
+	[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+	new CBPFWTabs( el );
+		});
+	})();
 </script>
 </head>
 <body>
