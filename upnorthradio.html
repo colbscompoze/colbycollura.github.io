@@ -49,6 +49,15 @@
 	height:		1500 px;
 	width:		1500 px;
 	border-style:	double;}
+    #pond3 {
+    	background: #ccc none repeat scroll 0 0;
+    	border: 3px solid #666;
+    	margin: 5px;
+    	padding: 5px;
+    	position: relative;
+    	width: 750px;
+    	height: 750px;
+	overflow: auto; }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
@@ -78,9 +87,7 @@ $(document).ready(function(){
 });
 </script>
 <script>
-function BlindUp(){
-	Effect.BlindUp('ImageE', { duration: 3.0 });
-}
+$( "div.demo" ).scrollTop( 300 );
 	</script>
 </head>
 <body>
@@ -102,7 +109,8 @@ function BlindUp(){
 	<img id="imageD" src="Breck2.jpg" alt="four" style="height: 200px; width:300px"/>
 	<div id="div3" style="width:50px;height:50px;display:none;background-color:blue;"></div>
 	<img id="imageE" src="Distance.jpg" alt="five" style="height: 200px; width:300px"/>
-
 </div>
+	<div id="pond3"><H1>Welcome to JS World</H1>
+	</div>	
 </body>
 </html>
