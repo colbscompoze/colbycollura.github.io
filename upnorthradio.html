@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="css/slickmenu.css"/>
 <style>
     body {
-        background-color:rgba(0,0,255,0.3); }
+        background-color:rgba(0,0,255,0.3);}
 	z-index: -1;
     #title {
         color: white; 
@@ -77,13 +77,18 @@ $(document).ready(function(){
     });
 });
 </script>
+<script>
+function BlindUp(){
+	Effect.BlindUp('ImageE', { duration: 3.0 });
+}
+	</script>
 </head>
 <body>
 <H1>Trip to the Colorado Rocky Mountains</H1>
 <input type="button" id="button1" value="Fade In Dots" />
 <input type="button" id="button2" value="Toggle Photo A" />
 <input type="button" id="button3" value="Grow Photo B" />
-<input type="button" id="button4" value="Shrink Photo B" />
+<input type="button" id="button4" onclick="BlindUp" value="Shrink Photo B" />
 
 <div id="pond">
 	<img id="imageA" src="Breck3.jpg" alt="one" style="height: 200px; width:300px"/>
