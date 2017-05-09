@@ -3,6 +3,7 @@
 <head>
 <title>Up North Radio</title>
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/slickmenu.css"/>
 <style>
     body {
         background-color:rgba(0,0,255,0.3); }
@@ -45,6 +46,7 @@
 	border-style:	double;}
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.jslickmenu.js"></script>
 <script>
 $(document).ready(function(){
 	$("#button1").click(function(){
@@ -64,12 +66,17 @@ $(document).ready(function(){
             	width: '-=50px'
         	});
     	});
+	$("#menu").jSlickmenu();
 });
 </script>
 </head>
 <body>
 <H1>Up North Radio</H1>
-<H2><em>Go outside, Go wild</em></H2>
+<div id ="menu">
+		<H2><em>Go outside, Go wild</em></H2>
+		<ul>
+			<li>Thing #1</li>
+			<li>Thing #2</li></ul></div>
 <input type="button" id="button1" value="Toggle Photo A" />
 <input type="button" id="button2" value="Grow Photo B" />
 <input type="button" id="button3" value="Shrink Photo B" />
