@@ -3,6 +3,28 @@
 <head>
 <title>Verbos en español</title>
   <link rel="stylesheet" href="style.css"/>
+<!--This links the the google api for scriptaculous -->
+<script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
+//scriptaculous functions getting called for images for animated responses
+<script>	
+  function blindsUp() {
+		new Effect.BlindUp('pic1', { duration: 1.0 });
+		return false;
+	}
+	function dropOutPic() {
+		new Effect.DropOut('pic2');
+		return false;
+	}
+	function foldPic() {
+		new Effect.Fold('pic3');
+		return false;
+	}
+	function switchoffPic() {
+		new Effect.SwitchOff('pic4');
+		return false;
+	}
+	</script>
   </head>
 <header class="row" style="background-color:forestgreen; text-align: center;">
       <H1>
@@ -19,22 +41,22 @@
 <div class="container" style="background-color:purple; text-align:left;">
 <div class="img" style="margin-top: 30px; margin-left: 20px; margin-right: 10px; display: inline-block;">
   <a target="_blank" href="http://dtsdapache.hershey.k12.pa.us/c3e3/snesbitt/files/2011/01/ar_er_ir_notes.png">
-    <img src="verbs-fridge-magnets.jpg" width="180" height="120"></a>
+    <img id="pic1" src="verbs-fridge-magnets.jpg" width="180" height="120"></a>
   <div class="desc" style="color:white; text-align: center;">AR/ER/IR Endings</div>
   </div>
 <div class="img" style="margin-top: 30px; margin-right: 20px; display: inline-block;">
   <a target="_blank" href="https://www.youtube.com/watch?v=w6TjefGxfPY">
-    <img src="imgres.jpg" width="180" height="120"></a>
+    <img id="pic2" src="imgres.jpg" width="180" height="120"></a>
   <div class="desc" style="color:white; text-align: center;">"Ser" Song</div>
   </div>
 <div class="img" style="margin-top: 30px; margin-right: 20px; display: inline-block;">
   <a target="_blank" href="http://zachary-jones.com/zambombazo/infografia-usos-de-los-verbos-ser-y-estar/">
-    <img src="SerEstar.jpg" width="180" height="120"></a>
+    <img id="pic3" src="SerEstar.jpg" width="180" height="120"></a>
   <div class="desc" style="color: white; text-align: center;">"Ser vs. Estar"</div>
   </div>
 <div class="img" style="margin-top: 30px; margin-right: 20px; display: inline-block;">
   <a target="_blank" href="http://www.spanishdict.com/topics/practice/46">
-    <img src="SerEstar2.png" width="180" height="120"></a>
+    <img id="pic4" src="SerEstar2.png" width="180" height="120"></a>
   <div class="desc" style="color:white; text-align: center;">"Práctica 1: Ser y Estar"</div>
   </div>
   </div>
