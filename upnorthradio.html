@@ -98,7 +98,8 @@ $( "#pond3" ).scrollTop( 300 );
 <input type="button" id="button2" value="Toggle Photo A" />
 <input type="button" id="button3" value="Grow Photo B" />
 <input type="button" id="button4" value="Shrink Photo B" />
-<input type="button" id="button5" value="Change Me"/>
+<input type="button" id="button5" value="Fold Photo F" onclick="Effect.Fold('Colorado1.JPG'); return false;"/>
+<input type="button" id="button6" value="Reset Photo F" onclick="$('fold_demo').show(); return false;"/>
 
 <div id="pond">
 	<img id="imageA" src="Breck3.jpg" alt="one" style="height: 200px; width:300px"/>
@@ -116,10 +117,4 @@ $( "#pond3" ).scrollTop( 300 );
 </div>
 	<div id="pond3"><H1>Welcome to JS World</H1>
 	</div>	
-<div id="fold_demo" style="width:80px; height:80px; background:#ccc;"></div>
-<ul>
-  <li><a href="#" onclick="Effect.Fold('fold_demo'); return false;">Click me for a demo!</a></li>
-  <li><a href="#" onclick="$('fold_demo').show(); return false;">Reset</a></li>
-</ul>
-</body>
 </html>
