@@ -3,9 +3,6 @@
 <head>
 <title>Up North Radio</title>
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
-<!--This links the the google api for scriptaculous -->
-<script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
 <style>
     body {
         background-color:rgba(0,0,255,0.3);}
@@ -61,6 +58,15 @@
 	background-color: silver;
 	opacity: 0.5; }
 </style>
+<!--This links the the google api for scriptaculous -->
+<script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
+<script type="text/javascript">
+	function changeIt(){
+		new Effect.Shake("imageF", {duration: 2.0});
+		new Effect.Puff("imageF", {duration: 2.0});
+	}
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -98,8 +104,8 @@ $( "#pond3" ).scrollTop( 300 );
 <input type="button" id="button2" value="Toggle Photo A" />
 <input type="button" id="button3" value="Grow Photo B" />
 <input type="button" id="button4" value="Shrink Photo B" />
-<input type="button" id="button5" value="Fold Photo F" onclick="Effect.Fold('Colorado1.JPG'); return false;"/>
-<input type="button" id="button6" value="Reset Photo F" onclick="$('fold_demo').show(); return false;"/>
+<input type="button" id="button5" value="Shake Photo F" onclick="changeIt()"/>
+<input type="button" id="button6" value="Reset Photo F"/>
 
 <div id="pond">
 	<img id="imageA" src="Breck3.jpg" alt="one" style="height: 200px; width:300px"/>
