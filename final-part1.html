@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Scriptaculous Demo</title>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+<style>
+    body {
+        background-color:rgba(0,0,255,0.3);}
+	    z-index: -1;
+    #title {
+        color: white; 
+        text-align: center; 
+        font-size: 60px; 
+        font-family: 'Architects Daughter', cursive;
+        font-weight: bold; }
+    h1 {
+        color: white; 
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Architects Daughter', cursive; }
+    h2 {
+        color: white; 
+        font-size: 24;
+        text-align: center;
+        font-family: 'Architects Daughter', cursive; }
+    #imageA {
+	    height:		240 px;
+	    width:		360 px;}
+    #imageB {
+	    height:		240 px;
+	    width:		360 px}
+    #imageC {
+	    height:		240 px;
+	    width:		360 px;}
+    #imageD {
+	    height:		240 px;
+	    width:		360 px}
+    #imageE {
+	    height:		240 px;
+	    width:		360 px;}
+    #pond, #pond2 {
+	    width:		750 px;
+	    height:		1500 px; 
+	    display:	flex;
+	    flex-direction:	row;
+	    justify-content: space-around;
+	    align-items:	center;
+	    border-style:	double;
+	    padding-top: 	20px;
+	    padding-bottom:	20px;}
+   
+    #square1, #square2, #square3, #square4 {
+	    width:	20px;
+	    height:	200px;
+	    display:  visible;
+	    background-color: silver;
+	    opacity: 0.5; }
+</style>
+<!--This links the the google api for scriptaculous -->
+<script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
+<script type="text/javascript">
+	
+	function quickHideBox() {
+		new Effect.Opacity('imageA', { from: 1, to: 0, duration: 0.5 });
+		return false;
+	}
+	function quickShowBox() {
+		new Effect.Opacity('imageA', { from: 0, to: 1, duration: 0.5 });
+		return false;
+	}
+	function slowHideBox() {
+		new Effect.Opacity('imageF', { from: 1, to: 0, duration: 2.5 });
+		return false;
+	}
+	function slowShowBox() {
+		new Effect.Opacity('imageF', { from: 0, to: 1, duration: 2.5 });
+		return false;
+	}
+	function shakeIt(){
+		new Effect.Shake('imageC', {duration: 1.0});
+	}
+	function pulsateIt(){
+	    new Effect.Pulsate('imageD', {pulses: 3});
+	}
+	function puffQuick(){
+        new Effect.Puff('imageE', {delay:0.1, duration: 0.5});
+	}
+	function blindItUp(){
+        new Effect.BlindUp('imageB', {delay:0.1, duration: 1.0});
+	}
+	function snapFirst(){
+	    new Effect.Move('imageF', { x: 20, y: -50, mode: 'relative', duration: 0.5 });
+	}
+	function snapSecond(){
+	 	new Effect.Move('imageF', {delay: 0.5, x: -20, y: 50, mode: 'relative' });
+	}
+</script>
+</head>
+<body>
+<H1>Trip to the Colorado Rocky Mountains</H1>
+<H2>**Featuring Scriptaculous**</H2>
+<div id="pond">
+    <div id="buttons" style="height: 100px; width:100px">
+        <input type="button" value="Quick Hide Photo A" onclick="quickHideBox()">
+        <input type="button" value="Quick Show Photo A" onclick="quickShowBox()">
+        <input type="button" value="Blind Up Photo B" onclick="blindItUp()">
+        <input type="button" value="Shake Photo C" onclick="shakeIt()">
+        </div>
+	<img id="imageA" src="images/Breck1.jpg" alt="one" style="height: 200px; width:300px"/>
+	<div id="square1"></div>
+	<img id="imageB" src="images/Food.jpg" alt="two" style="height: 200px; width:300px" />
+	<div id="square2"></div>
+	<img id="imageC" src="images/Loveland.jpg" alt="three" style="height: 200px; width:300px" />
+	</div>
+<div id="pond2">
+    <div id="buttons2" style="height: 100px; width:100px">
+        <!-- <input type="button" value="button3" onclick="hideBoxB()"> -->
+        <input type="button" value="Pulsate Photo D" onclick="pulsateIt()">
+        <input type="button" value="Fast Puff Photo E" onclick="puffQuick()">
+        <input type="button" value="Slow Hide Photo F" onclick="slowHideBox()">
+        <input type="button" value="Show Show Photo F" onclick="slowShowBox()">
+        <input type="button" value="Snap Back Photo F" onclick="snapFirst(), snapSecond()"> 
+        </div>
+	<img id="imageD" src="images/Breck2.jpg" alt="four" style="height: 200px; width:300px"/>
+	<div id="square3"></div>
+	<img id="imageE" src="images/Distance.jpg" alt="five" style="height: 200px; width:300px"/>
+	<div id="square4"></div>
+	<img id="imageF" src="images/Colorado.JPG" alt="five" style="height: 200px; width:300px"/>
+</div>
+</html>
