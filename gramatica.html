@@ -11,6 +11,9 @@
 $(document).ready(function(){
 	$("#animatePics").click(function(){
 		$("#pic1").toggle();
+	$( "p" ).tabs({
+  		active: 1
+	});
 	});
 });
 </script>
@@ -27,7 +30,7 @@ $(document).ready(function(){
 <body>
 <section class="jumbotron" style="background-color:forestgreen;">
   <H1>¡Verbos en español!</H1>  
-   <p> Tenemos muchos verbos en español para estudiar.  La música te ayuda con recordar los verbos.</p>
+   <p > Tenemos muchos verbos en español para estudiar.  La música te ayuda con recordar los verbos.</p>
 	<input type="button" id="animatePics" value="Click to Animate">
 <div class="container" style="background-color:purple; text-align:left;">
 <div class="img" style="margin-top: 30px; margin-left: 20px; margin-right: 10px; display: inline-block;">
