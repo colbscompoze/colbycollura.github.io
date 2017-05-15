@@ -21,7 +21,7 @@ button {    font-size:              32px;
 
 section.jumbotron {text-align:      center; 
             border:                 1px solid black;
-            outline-color:          forestgreen;}
+            background-color:       forestgreen;}
 h2 {        color:                  red; 
             font-family: 'Shrikhand', cursive; 
             font-size:              32px;}
