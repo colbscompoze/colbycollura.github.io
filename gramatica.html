@@ -9,11 +9,13 @@
 <script type="text/javascript">
 //scriptaculous functions getting called for images for animated responses
 $(document).ready(function(){
-	$("#animatePics").click(function(){
+	$("#Toggle").click(function(){
 		$("#pic1").toggle();
-	$( "#para" ).tabs({
-  		active: 1
 	});
+	$("#Resize").click(function(){
+  		$("#pic2").effect("size",{
+    		to: { width: 200, height: 60 }
+  		}, 1000 );
 	});
 });
 </script>
@@ -31,7 +33,8 @@ $(document).ready(function(){
 <section class="jumbotron" style="background-color:forestgreen;">
   <H1>¡Verbos en español!</H1>  
    <p id="para"> Tenemos muchos verbos en español para estudiar.  La música te ayuda con recordar los verbos.</p>
-	<input type="button" id="animatePics" value="Click to Animate">
+	<input type="button" id="Toggle" value="Toggle Photo A">
+	<input type="button" id="Resize" value="Resize Photo B">
 <div class="container" style="background-color:purple; text-align:left;">
 <div class="img" style="margin-top: 30px; margin-left: 20px; margin-right: 10px; display: inline-block;">
   <a target="_blank" href="http://dtsdapache.hershey.k12.pa.us/c3e3/snesbitt/files/2011/01/ar_er_ir_notes.png">
