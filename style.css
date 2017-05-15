@@ -1,14 +1,28 @@
 
-header {background-color:forestgreen; color:white; text-align: center;}
+header {    display:	            flex;
+	flex-direction:	row;
+	justify-content:        space-around;
+	align-items:	center;
+	border-style:	double;}
 
-h1 {color: white; font-family: Verdana; font-size:50px; text-align:center;}
+h1 {        color:                  white; 
+            font-family:            Verdana; 
+            font-size:              50px; 
+            text-align:             center;}
 
-p {text-align:center; margin-bottom:20px; color:white; font-size:32px;font-family:Verdana;}
+p {         text-align:             center;
+            margin-bottom:          20px; 
+            color:                  white; 
+            font-size:              32px;
+            font-family:            Verdana;}
 
-button {font-size: 32px; color: blue;}
+button {    font-size:              32px; 
+            color:                  blue;}
 
-section.jumbotron {text-align: center; 
-            border: 1px solid black;
-            outline-color:forestgreen;}
-h2 {color: red; font-family: Verdana; font-size: 32px;}
+section.jumbotron {text-align:      center; 
+            border:                 1px solid black;
+            outline-color:          forestgreen;}
+h2 {        color:                  red; 
+            font-family:            Verdana; 
+            font-size:              32px;}
 
