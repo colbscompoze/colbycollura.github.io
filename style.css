@@ -1,9 +1,9 @@
 
 header {    display:	            flex;
-	flex-direction:	row;
-	justify-content:        space-around;
-	align-items:	center;
-	border-style:	double;}
+	    flex-direction:	    row;
+	    justify-content:        space-around;
+	    align-items:            center;
+	    border-style:	    double;}
 
 h1 {        color:                  white; 
             font-family:            Verdana; 
