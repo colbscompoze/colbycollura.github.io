@@ -14,27 +14,12 @@
 	<script type="text/javascript">
 //scriptaculous functions getting called for images for animated responses
 <script>
-$(document).ready(function(){
-    $("#animatePics").click(function(){
-	blindsUp();
-	dropOutPic();
-	foldPic();
-	switchoffPic();
-  function blindsUp() {
-		new Effect.BlindUp('pic1', { duration: 1.0 });
-	}
-	function dropOutPic() {
-		new Effect.DropOut('pic2');
-	}
-	function foldPic() {
-		new Effect.Fold('pic3');
-	}
-	function switchoffPic() {
-		new Effect.SwitchOff('pic4');
-	}
-    )};
-)};
-	</script>
+	$(document).ready(function(){
+$( "#animatePics" ).click(function() {
+	$( "#pic1" ).toggle( "fold", 1000 );
+	});
+});
+</script>
   </head>
 <header class="row" style="background-color:forestgreen; text-align: center;">
       <H1>
