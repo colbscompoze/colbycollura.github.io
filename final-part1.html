@@ -95,11 +95,15 @@
 	function snapSecond(){
 	 	new Effect.Move('imageF', {delay: 0.5, x: -20, y: 50, mode: 'relative' });
 	}
+	function changeTitle(){
+		new Effect.Highlight(H2, [yellow]);
+	}
 </script>
 </head>
 <body>
 <H1>Trip to the Colorado Rocky Mountains</H1>
-<H2>**Featuring Scriptaculous**</H2>
+<H2>**Featuring Scriptaculous** onclick="new Effect.Highlight(this.parentNode, { startcolor: rgba(0,0,255,0.3),
+endcolor: yellow }); return false;</H2>
 <div id="pond">
     <div id="buttons" style="height: 100px; width:100px">
         <input type="button" value="Quick Hide Photo A" onclick="quickHideBox()">
