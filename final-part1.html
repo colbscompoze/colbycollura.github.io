@@ -98,6 +98,9 @@
 	function snapThird(){
 		new Effect.Move('imageF', {delay: 2, x: -20, y: -50, mode: 'relative' });
 	}
+	function snapFourth(){
+		new Effect.Move('imageF', {delay: 2, x: 20, y: 50, mode: 'relative' });
+	}
 	function changeTitle(){
 		new Effect.Highlight(H2, [yellow]);
 	}
@@ -126,7 +129,7 @@
         <input type="button" value="Fast Puff Photo E" onclick="puffQuick()">
         <input type="button" value="Slow Hide Photo F" onclick="slowHideBox()">
         <input type="button" value="Show Show Photo F" onclick="slowShowBox()">
-        <input type="button" value="Snap Back Photo F" onclick="snapFirst(), snapSecond(), snapThird(), snapSecond()"> 
+        <input type="button" value="Snap Back Photo F" onclick="snapFirst(), snapSecond(), snapThird(), snapFourth()"> 
         </div>
 	<img id="imageD" src="Breck2.jpg" alt="four" style="height: 200px; width:300px"/>
 	<div id="square3"></div>
