@@ -60,6 +60,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
 <script type="text/javascript">
+	//Scriptaculous events for images A, B, and C
+	function offTitle() {
+		new Effect.SwitchOff('H1');
+	}
 	
 	function quickHideBox() {
 		new Effect.Opacity('imageA', { from: 1, to: 0, duration: 0.5 });
@@ -80,6 +84,7 @@
 	function shakeIt(){
 		new Effect.Shake('imageC', {duration: 1.0});
 	}
+	//Scriptaculous events for images D, E, and F
 	function pulsateIt(){
 	    new Effect.Pulsate('imageD', {pulses: 3});
 	}
@@ -106,6 +111,7 @@
 <body>
 <H1>Trip to the Colorado Rocky Mountains</H1>
 <H2>**Featuring Scriptaculous**</H2>
+<input type="button" value="Turn Off H1" onclick="offTitle()">
 <div id="pond">
     <div id="buttons" style="height: 100px; width:100px">
         <input type="button" value="Quick Hide Photo A" onclick="quickHideBox()">
