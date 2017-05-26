@@ -4,7 +4,9 @@ header {    display:	            flex;
 	    justify-content:        space-around;
 	    align-items:            center;
 	    border-style:	    double;
-	    background-color:	    white;}
+	    background:		    http://theessayreview.org/wp-content/uploads/2016/04/Paper.jpg(Paper.jpg);}
+
+body {	    background:		    http://theessayreview.org/wp-content/uploads/2016/04/Paper.jpg(Paper.jpg);}
 
 h1 {        color:                  white; 
 	    font-family: 'Shrikhand', cursive;            
