@@ -3,7 +3,8 @@ header {    display:	            flex;
 	    flex-direction:	    row;
 	    justify-content:        space-around;
 	    align-items:            center;
-	    border-style:	    double;}
+	    border-style:	    double;
+	    background-color:	    white;}
 
 h1 {        color:                  white; 
 	    font-family: 'Shrikhand', cursive;            
