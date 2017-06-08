@@ -6,13 +6,15 @@
 h1 {        color:                  white; 
 	    font-family: 'Sniglet', cursive;
 	    font-size:              80px; 
-            text-align:             center;}
+            text-align:             center;
+	    cursor: default;	}
 
 p {         text-align:             center;
             margin-bottom:          20px; 
             color:                  white; 
             font-size:              34px;
             font-family: 'Sniglet', cursive; }
+span { 	    color: blue; }
 </style>
 	<!--This links the the Google font-->
 	<link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
@@ -21,7 +23,6 @@ p {         text-align:             center;
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
-//scriptaculous functions getting called for images for animated responses
 $(document).ready(function(){
 	$("#Toggle").click(function(){
 		$("#pic1").toggle();
@@ -37,6 +38,17 @@ $(document).ready(function(){
 	});
 	$("#para").hover(function(){
 		$("#pic3").show();
+	});
+
+	$( "H1" ).hover(function() {
+    		$( this ).append( $( "<span> ***</span>" ) );
+  			}, function() {
+    		$( this ).find( "span:last" ).remove();
+  	});
+ 	//This jquery part is not set up yet
+	$( "li.fade" ).hover(function() {
+  		$( this ).fadeOut( 100 );
+  		$( this ).fadeIn( 500 );
 	});
 });
 </script>
@@ -79,7 +91,7 @@ $(document).ready(function(){
 	</div>
 <div class="img" style="margin-top: 30px; margin-right: 20px; display: inline-block;">
   <a target="_blank" href="https://www.youtube.com/watch?v=KATBgZ5oyIg">
-    <img src="musica-009.jpg" width="180" height="120"></a>
+    <img id="pic5" src="musica-009.jpg" width="180" height="120"></a>
   <div class="desc" style="color:white; text-align: center;">Reflexive Your Verby</div>
   </div>
 	</div>
